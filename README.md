@@ -54,14 +54,14 @@ git clone https://github.com/mengheangkh/M.h4ck-Camera-Tool.git
 cd M.h4ck-Camera-Tool
 
 # 5. Give permission
-chmod +x install.sh
+chmod +x install_m.h4ck.sh
 
 # 6. Run termux-api
 pkg install termux-api
 
 # 7. Run installation
-./install.sh
+./install_m.h4ck.sh
 
 # 8. Run Comment
-
 mh4ck
+
