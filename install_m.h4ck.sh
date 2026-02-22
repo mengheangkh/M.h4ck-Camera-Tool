@@ -26,19 +26,18 @@ UNDERLINE='\033[4m'
 #============= BANNER DESIGN =============#
 banner(){
 clear
-echo -e "${RED}╔══════════════════════════════════════════════════════════╗${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}${BOLD}███╗   ███╗██╗  ██╗ █████╗  ██████╗██╗  ██╗${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}████╗ ████║██║  ██║██╔══██╗██╔════╝██║  ██║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}██╔████╔██║███████║███████║██║     ███████║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}██║╚██╔╝██║██╔══██║██╔══██║██║     ██╔══██║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}██║ ╚═╝ ██║██║  ██║██║  ██║╚██████╗██║  ██║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}                                                          ${RED}║${RESET}"
-echo -e "${RED}║${RESET}             ${GREEN}${BOLD}⚡ M.H4CK CAMERA TOOL ⚡${RESET}                ${RED}║${RESET}"
-echo -e "${RED}║${RESET}            ${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}            ${RED}║${RESET}"
-echo -e "${RED}║${RESET}             ${WHITE}Developer:${RESET} ${CYAN}Heang Cyber${RESET}                     ${RED}║${RESET}"
-echo -e "${RED}║${RESET}             ${WHITE}Version:${RESET} ${PURPLE}2.0${RESET} | ${WHITE}Status:${RESET} ${GREEN}Active${RESET}                ${RED}║${RESET}"
-echo -e "${RED}╚══════════════════════════════════════════════════════════╝${RESET}"
+echo -e "${RED}╔══════════════════════════════╗${RESET}"
+echo -e "${RED}║${RESET}  ${CYAN}${BOLD}███╗   ███╗██╗  ██╗ █████╗  ██████╗██╗  ██╗${RESET} ${RED}║${RESET}"
+echo -e "${RED}║${RESET}  ${CYAN}████╗ ████║██║  ██║██╔══██╗██╔════╝██║  ██║${RESET} ${RED}║${RESET}"
+echo -e "${RED}║${RESET}  ${CYAN}██╔████╔██║███████║███████║██║     ███████║${RESET} ${RED}║${RESET}"
+echo -e "${RED}║${RESET}  ${CYAN}██║╚██╔╝██║██╔══██║██╔══██║██║     ██╔══██║${RESET} ${RED}║${RESET}"
+echo -e "${RED}║${RESET}  ${CYAN}██║ ╚═╝ ██║██║  ██║██║  ██║╚██████╗██║  ██║${RESET} ${RED}║${RESET}"
+echo -e "${RED}║${RESET}  ${CYAN}╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝${RESET} ${RED}║${RESET}"
+echo -e "${RED}║${RESET}                                  ${RED}║${RESET}"
+echo -e "${RED}║${RESET}     ${GREEN}${BOLD}⚡ M.H4CK CAMERA ⚡${RESET}          ${RED}║${RESET}"
+echo -e "${RED}║${RESET}     ${YELLOW}Developer:${RESET} ${WHITE}Heang Cyber${RESET}     ${RED}║${RESET}"
+echo -e "${RED}║${RESET}     ${YELLOW}Version:${RESET} ${PURPLE}2.0${RESET} | ${GREEN}Active${RESET}        ${RED}║${RESET}"
+echo -e "${RED}╚══════════════════════════════╝${RESET}"
 echo
 }
 
