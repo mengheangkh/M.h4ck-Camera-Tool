@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "Installing M.h4ck Camera Tool..."
+echo "Installing M.H4CK Camera Tool..."
 
 BASE="$HOME/.mh4ck"
 mkdir -p "$BASE"
@@ -27,17 +27,17 @@ UNDERLINE='\033[4m'
 banner(){
 clear
 echo -e "${RED}╔══════════════════════════════════════════════════════════╗${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}${BOLD}███████╗███╗   ███╗ █████╗  ██████╗██╗  ██╗${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}██╔════╝████╗ ████║██╔══██╗██╔════╝██║  ██║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}█████╗  ██╔████╔██║███████║██║     ███████║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}██╔══╝  ██║╚██╔╝██║██╔══██║██║     ██╔══██║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}███████╗██║ ╚═╝ ██║██║  ██║╚██████╗██║  ██║${RESET}              ${RED}║${RESET}"
-echo -e "${RED}║${RESET}              ${CYAN}╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝${RESET}              ${RED}║${RESET}"
+echo -e "${RED}║${RESET}              ${CYAN}${BOLD}███╗   ███╗ ██╗  ██╗ █████╗  ██████╗██╗  ██╗${RESET}              ${RED}║${RESET}"
+echo -e "${RED}║${RESET}              ${CYAN}████╗ ████║ ██║  ██║██╔══██╗██╔════╝██║  ██║${RESET}              ${RED}║${RESET}"
+echo -e "${RED}║${RESET}              ${CYAN}██╔████╔██║ ███████║███████║██║     ███████║${RESET}              ${RED}║${RESET}"
+echo -e "${RED}║${RESET}              ${CYAN}██║╚██╔╝██║ ██╔══██║██╔══██║██║     ██╔══██║${RESET}              ${RED}║${RESET}"
+echo -e "${RED}║${RESET}              ${CYAN}██║ ╚═╝ ██║ ██║  ██║██║  ██║╚██████╗██║  ██║${RESET}              ${RED}║${RESET}"
+echo -e "${RED}║${RESET}              ${CYAN}╚═╝     ╚═╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝${RESET}              ${RED}║${RESET}"
 echo -e "${RED}║${RESET}                                                          ${RED}║${RESET}"
 echo -e "${RED}║${RESET}             ${GREEN}${BOLD}⚡ M.H4CK CAMERA TOOL ⚡${RESET}                ${RED}║${RESET}"
 echo -e "${RED}║${RESET}            ${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}            ${RED}║${RESET}"
-echo -e "${RED}║${RESET}             ${WHITE}Developer:${RESET} ${CYAN}Heang Cyber${RESET}                     ${RED}║${RESET}"
-echo -e "${RED}║${RESET}             ${WHITE}Version:${RESET} ${PURPLE}2.0${RESET} | ${WHITE}Status:${RESET} ${GREEN}Active${RESET}                ${RED}║${RESET}"
+echo -e "${RED}║${RESET}             ${WHITE}Developer:${RESET} ${CYAN}@mengheang25${RESET}                     ${RED}║${RESET}"
+echo -e "${RED}║${RESET}             ${WHITE}Version:${RESET} ${PURPLE}4.0${RESET} | ${WHITE}Status:${RESET} ${GREEN}Active${RESET}                ${RED}║${RESET}"
 echo -e "${RED}╚══════════════════════════════════════════════════════════╝${RESET}"
 echo
 }
@@ -192,7 +192,7 @@ case $choice in
   
   echo -e "${CYAN}${BOLD}[➤]${RESET} Opening Telegram Group..."
   sleep 0.5
-  echo -e "${CYAN}${BOLD}[➤]${RESET} Group: ${YELLOW}M.h4ck Community${RESET}"
+  echo -e "${CYAN}${BOLD}[➤]${RESET} Group: ${YELLOW}MHSIMPLE TOOLSCommunity${RESET}"
   
   open_link "https://t.me/+Z7m3EQDg0Wc0YWZl"
   show_success
@@ -202,7 +202,7 @@ case $choice in
   clear
   echo -e "${RED}${BOLD}╔════════════════════════════════════════╗${RESET}"
   echo -e "${RED}${BOLD}║${RESET}                                      ${RED}${BOLD}║${RESET}"
-  echo -e "${RED}${BOLD}║${RESET}   ${YELLOW}Thank you for using M.h4ck Tool${RESET}    ${RED}${BOLD}║${RESET}"
+  echo -e "${RED}${BOLD}║${RESET}   ${YELLOW}Thank you for using M.H4CK Tool${RESET}    ${RED}${BOLD}║${RESET}"
   echo -e "${RED}${BOLD}║${RESET}         ${GREEN}Stay Safe! Stay Hack!${RESET}         ${RED}${BOLD}║${RESET}"
   echo -e "${RED}${BOLD}║${RESET}                                      ${RED}${BOLD}║${RESET}"
   echo -e "${RED}${BOLD}╚════════════════════════════════════════╝${RESET}\n"
