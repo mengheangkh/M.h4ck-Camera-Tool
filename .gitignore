@@ -1,14 +1,92 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Termux specific
+/data/data/com.termux/
+/storage/
+/sdcard/
 
-pkg/
-src/
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Generated files
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Local configuration
+config.json
+*.conf
+.env
+*.local
+
+# Output directories
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Backup files
+*.bak
+*.backup
+
+# Telegram bot data
+*.session
+*.session-journal
+/mh4ck_data/
+
+# Runtime data
+logs/
+*.txt
+!README.md
+!requirements.txt
+
+# Termux specific
+.bash_history
+.zsh_history
+.termux/
+
+# Temporary files
+tmp/
+temp/
+*.tmp.html
+*.temp.html
+
+# Project specific
+*.url
+*.link
+/captured_media/
+/screenshots/
+
+# Exclude sensitive data
+*.key
+*.pem
+*.crt
+*.pub
+secrets/
+credentials/
